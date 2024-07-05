@@ -1,0 +1,28 @@
+i {
+    font-size: 14px;
+    vertical-align: middle;
+    padding-right: 4px;
+}
+
+.inputs .search-form input {
+    border: 1px solid gray;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.xs-icon {
+  font-size: 4px;
+  vertical-align: middle;
+}
+
+.last {
+  background-color: #8DD3BB;
+  padding: 16px;
+  border-radius: 6px;
+  vertical-align: middle;
+  
+}
+

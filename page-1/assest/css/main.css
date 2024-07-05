@@ -1,0 +1,457 @@
+body {
+    background-color: #FAFBFC;
+}
+.head {
+    background-image :url(https://images.pexels.com/photos/54278/pexels-photo-54278.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    margin: 30px auto;
+    width: 100%;
+    height: 550px;
+    border-radius: 25px;
+    max-width: 1380px;
+    overflow: hidden;
+    position: relative;
+}
+
+.head .head-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 32px;
+}
+
+.head .head-top .btns {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 32px;
+}
+
+.head .head-top .btns button {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.head .head-top .login {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    
+}
+
+.head .head-top .login button:first-child {
+    color: #fff;
+}
+
+
+.head .head-top .login button:last-child {
+    color:#112211 ;
+    background-color: #fff;
+    padding: 16px 24px;
+    border-radius: 12px;
+}
+
+.head .head-text {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+}
+
+.head .head-text h1 {
+    font-size:70px ;
+}
+
+.head .head-text p:first-child {
+    font-size: 35px;
+    font-style: italic;
+}
+
+.head .head-text p:last-child {
+    font-size: 17px;
+}
+
+
+.inputs {
+    background-color: #fff;
+    display: flex;
+    border-radius: 16px;
+    overflow: hidden;
+    position: absolute;
+    z-index: 1;
+    bottom: 10px;
+    left: 17%;
+    width: 1000px;
+}
+
+.inputs .container {
+    padding: 16px 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.inputs .container .btns {
+ margin-bottom: 32px;
+ display: flex;
+ align-items: center;
+ justify-content: end;
+ gap: 24px;
+}
+
+.inputs .container .btns:first-child {
+    justify-content: start;
+}
+
+.inputs .container .btns .btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.inputs .search-form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.inputs .search-form .search-item #trip {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 6px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.main {
+    margin: 200px auto;
+    width: 1200px;
+}
+
+.center {
+    margin-bottom: 80px;
+}
+
+.center .center-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.center .center-top .left-text {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.center .center-top .left-text h3 {
+    font-size: 35px;
+}
+
+.center .center-top .left-text p {
+    font-size: 14px;
+    color: #4B585C;
+}
+
+.center .center-top .btns button {
+    padding: 12px 16px;
+    border: 1px solid #4B585C ;
+}
+
+.center .cent-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 1240px;
+    margin-top: 40px;
+    gap: 32px;
+}
+
+.center .cent-box .cent {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 16px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    width: 380px;
+    padding: 16px;
+}
+
+.center .cent-box .cent figure {
+    width: 70px;
+    height: 70px;
+   
+}
+
+.center .cent-box .cent figure img {
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+
+.center .cent-box .cent .cent-right p {
+    padding-bottom: 8px;
+    color: #586458;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 24px;
+    margin-bottom: 70px;
+
+}
+
+.card .cent-card {
+    background-image: url(https://images.pexels.com/photos/158398/niagara-falls-waterfall-horseshoe-158398.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    background-position: center;
+    width: 570px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content:end ;
+    padding-bottom: 12px;
+    border-radius: 20px;
+}
+
+.card .cent-card h3 {
+    color: #fff;
+    font-size: 45px;
+    padding-bottom: 8px;
+}
+
+.card .cent-card p {
+    width: 300px;
+    color: #fff;
+   text-align: center;
+   padding-bottom: 16px;
+}
+.last-sect .top-last{
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.last-sect .top-last .left-text {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.last-sect .top-last .left-text h3 {
+    font-size: 35px;
+}
+
+
+.last-sect .top-last .left-text p {
+    font-size: 14px;
+    color: #4B585C;
+}
+
+
+.last-sect .top-last .btn button{
+    padding: 12px 16px;
+    border: 1px solid #4B585C ;
+}
+
+.last-sect .card .last-card {
+    background-color: #FFFFFF;
+    padding: 24px;
+    width: 400px;
+    border-radius: 20px;
+}
+
+.last-sect .card .last-card .top-text h3 {
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+
+.last-sect .card .last-card .top-text p {
+    color: #889088;
+    font-size: 14px;
+    height: 37px;
+    overflow: hidden;
+    padding-bottom: 12px;
+}
+
+.last-sect .card .last-card .top-text button {
+    padding-top: 15px;
+    padding-bottom: 16px;
+}
+
+
+.last-sect .card .last-card .icons {
+    margin-bottom: 20px;
+}
+
+.last-sect .card .last-card .icons i {
+    color: #FFC107;
+}
+
+.last-sect .card .last-card .last-text {
+    margin-bottom: 12px;
+}
+
+.last-sect .card .last-card .last-text h5 {
+    padding-bottom: 8px;
+}
+
+.last-sect .card .last-card .last-text p {
+    color: #979e97;
+}
+
+.last-sect .card .last-card .google {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 45px;
+    
+}
+
+.last-sect .card .last-card .google figure {
+    width: 24px;
+    height: 24px;
+}
+
+.last-sect .card .last-card .google figure img {
+    width: 100%;
+    height: 100%;
+}
+
+.last-sect .card .last-card .google p {
+    color: #A0A7A0;
+}
+
+.last-sect .card .last-card .last-img {
+    width: 347px;
+    height: 200px;
+}
+
+
+.last-sect .card .last-card .last-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+
+.subs-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1100px;
+    background-color: #CDEAE1;
+    padding: 24px;
+    border-radius: 20px;
+    position: absolute;
+    z-index: 1;
+    right: 13%;
+    bottom: -296%;
+}
+
+.subs-box .subscribe .subs-text {
+    margin-bottom: 16px;
+}
+
+.subs-box .subscribe .subs-text h3  {
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 54px;
+    padding-bottom: 24px;
+    width: 300px;
+}
+
+.subs-box .subscribe .subs-text p {
+font-size: 20px;
+font-weight: 700;
+line-height: 25px;
+padding-bottom: 8px;
+}
+
+.subs-box .subscribe .subs-text p:last-child {
+font-size: 16px;
+font-weight: 500;
+line-height: 19.5px;
+}
+
+.subs-box .subscribe .input {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.subs-box .subscribe .input input {
+    width: 400px;
+    background-color: #FFFFFF;
+    border: none;
+    padding: 18px 16px;
+}
+
+.subs-box .subscribe .input button {
+background-color: #112211;
+font-size: 14px;
+font-weight: 600;
+line-height: 17px;
+color: #FFFFFF;
+padding: 20px 16px;
+}
+
+.last-box {
+    width: 100%;
+    background-color: #8DD3BB;
+    height: 300px;
+    position: relative;
+}
+
+.last-box .foot-text {
+    display: flex;
+    align-items:start;
+    justify-content: space-around;
+    padding-top: 10%;
+    
+}
+
+.last-box .foot-text .logos {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.last-box .foot-text .logos figure {
+    width: 120px;
+    height: 40px;
+}
+
+.last-box .foot-text .logos figure img {
+    width: 100%;
+    height: 100%;
+}
+
+.last-box .foot-text .same-text {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.last-box .foot-text .same-text h3 {
+font-size: 16px;
+font-weight: 700;
+line-height: 20px;
+padding-bottom: 2px;
+}
